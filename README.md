@@ -47,6 +47,12 @@ filename=filename.png
 magick $filename -trim -transparent white $filename
 ```
 
+Multi-page pdfs:
+
+``` zsh
+magick -quality 100 -density 200 ${filename}.pdf ${filename}-%02d.png
+```
+
 For details see:
 <https://www.cynthiahqy.com/posts/imagemagick-basic-trim/>
 
@@ -63,6 +69,52 @@ To skip the render when you commit add the `--no-verify` flag:
 ## Images
 
 ## Illustrations
+
+illustrations/wcd-guest-lecture
+
+![illustrations/wcd-guest-lecture](illustrations/wcd-guest-lecture.png)
+
+illustrations/wcd-guest-lecture.pdf
+
+![](illustrations/wcd-guest-lecture.pdf)
+
+## Illustrations/Wcd-Guest-Lecture
+
+illustrations/wcd-guest-lecture/dishwasher-01-closed.png
+
+![](illustrations/wcd-guest-lecture/dishwasher-01-closed.png)
+
+illustrations/wcd-guest-lecture/dishwasher-02-opened.png
+
+![](illustrations/wcd-guest-lecture/dishwasher-02-opened.png)
+
+illustrations/wcd-guest-lecture/dishwasher-03-clean.png
+
+![](illustrations/wcd-guest-lecture/dishwasher-03-clean.png)
+
+illustrations/wcd-guest-lecture/dishwasher-04-dirty.png
+
+![](illustrations/wcd-guest-lecture/dishwasher-04-dirty.png)
+
+illustrations/wcd-guest-lecture/genAI-llm-tree.png
+
+![](illustrations/wcd-guest-lecture/genAI-llm-tree.png)
+
+illustrations/wcd-guest-lecture/general-finetuned-LLMs_wide.png
+
+![](illustrations/wcd-guest-lecture/general-finetuned-LLMs_wide.png)
+
+illustrations/wcd-guest-lecture/interfaces-to-llms_wide.png
+
+![](illustrations/wcd-guest-lecture/interfaces-to-llms_wide.png)
+
+illustrations/wcd-guest-lecture/LLM-to-helpers_narrow.png
+
+![](illustrations/wcd-guest-lecture/LLM-to-helpers_narrow.png)
+
+illustrations/wcd-guest-lecture/openAI-anthropic-models.png
+
+![](illustrations/wcd-guest-lecture/openAI-anthropic-models.png)
 
 ## Plots
 
